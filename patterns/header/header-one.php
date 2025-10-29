@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Header
- * Slug: blackemerald/header
+ * Title: Header One
+ * Slug: blackemerald/header-one
  * Categories: header
  * Block Types: core/template-part/header
  * Description: Site header with site title and navigation.

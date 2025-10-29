@@ -206,24 +206,32 @@
 				}
 			},
 			"core/button": {
-				"variations": {
-					"outline": {
-						"border": {
-							"color": "currentColor",
-							"width": "1px"
-						},
-						"css": ".wp-block-button__link:not(.has-background):hover {background-color:color-mix(in srgb, var(--wp--preset--color--contrast) 5%, transparent);}",
-						"spacing": {
-							"padding": {
-								"bottom": "calc(1rem - 1px)",
-								"left": "calc(2.25rem - 1px)",
-								"right": "calc(2.25rem - 1px)",
-								"top": "calc(1rem - 1px)"
-							}
+			"spacing": {
+				"padding": {
+					"top": "var:preset|spacing|20",
+					"right": "var:preset|spacing|30",
+					"bottom": "var:preset|spacing|30",
+					"left": "var:preset|spacing|20"
+				}
+			},
+			"variations": {
+				"outline": {
+					"border": {
+						"color": "currentColor",
+						"width": "1px"
+					},
+					"css": ".wp-block-button__link:not(.has-background):hover {background-color:color-mix(in srgb, var(--wp--preset--color--contrast) 5%, transparent);}",
+					"spacing": {
+						"padding": {
+							"bottom": "calc(var(--wp--preset--spacing--20) - 1px)",
+							"left": "calc(var(--wp--preset--spacing--30) - 1px)",
+							"right": "calc(var(--wp--preset--spacing--30) - 1px)",
+							"top": "calc(var(--wp--preset--spacing--20) - 1px)"
 						}
 					}
 				}
-			},
+			}
+		},
 			"core/columns": {
 				"spacing": {
 					"blockGap": "var:preset|spacing|50"
